@@ -7,6 +7,7 @@ class Project
   end
 
   def self.projects
+    @@projects
   end
 
 end
