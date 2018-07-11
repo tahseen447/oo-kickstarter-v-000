@@ -12,5 +12,6 @@ class Project
     @@projects
   end
 
+  def add_backer(backer)
 
 end
