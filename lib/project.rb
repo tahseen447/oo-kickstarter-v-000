@@ -6,4 +6,7 @@ class Project
     @backers = []
   end
 
+  def self.projects
+  end
+
 end
