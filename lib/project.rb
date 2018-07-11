@@ -5,4 +5,5 @@ class Project
   def initialize(name)
     @backers = []
   end
+
 end
