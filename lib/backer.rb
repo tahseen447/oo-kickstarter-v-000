@@ -3,6 +3,7 @@ class Backer
   @@backers = []
 
   def initialize(name)
+    @name = name
     @@backers << self
     @backed_projects = []
   end
