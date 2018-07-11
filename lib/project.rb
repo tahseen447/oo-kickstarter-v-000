@@ -3,6 +3,7 @@ class Project
   @@projects = []
 
   def initialize(name)
+    @title = name
     @backers = []
     @@projects << self
   end
