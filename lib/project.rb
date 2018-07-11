@@ -1,5 +1,5 @@
 class Project
-  attr_accessor :backers, :name
+  attr_accessor :backers, :title
   @@projects = []
 
   def initialize(name)
